@@ -41,6 +41,26 @@ IT Student & Web Developer passionate about building practical solutions through
 | 🛍 Alpha E-commerce | Full e-commerce platform like Jumia | Flask, HTML/CSS |
 | 🤖 Self-Hosted AI Agent | Local AI pipeline without cloud APIs | Python, n8n |
 
+## 🤖 Multi-Modal Damage Claims Verification System
+**HackerRank Orchestrate June 2026 Hackathon**
+
+An AI agent that verifies insurance damage claims using computer vision. 
+The system analyzes images of cars, laptops, and packages submitted alongside 
+a claim conversation, then decides whether the visual evidence supports the 
+claim, contradicts it, or is insufficient to make a determination.
+
+**Tech Stack:** Python, Gemini 2.0 Flash, Pandas, Pillow, python-dotenv
+
+**Key Features:**
+- Multimodal analysis — images + text processed in a single Gemini API call
+- Structured verdict output with 10 fields including severity and risk flags
+- Guardrails layer that flags fraud signals without overriding visual evidence
+- Dual strategy evaluation harness comparing prompt approaches
+
+🔗 [GitHub](https://github.com/Oseko-del/damage-claims-verification)
+
+
+
 ---
 
 ## 📊 GitHub Stats
